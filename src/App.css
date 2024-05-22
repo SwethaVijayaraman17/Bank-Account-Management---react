@@ -1,0 +1,135 @@
+.home{
+  background-image: url('./images/HomeBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+h1{
+  text-align: center;
+  margin: 5% 0px;
+}
+.homeFields{
+  display: flex;
+  border: 1px solid black;
+  width: 60%;
+  border-radius: 10px;
+  background-color: white;
+  margin: auto;
+  /* margin-top: 10%; */
+}
+.homeFields > div{
+  padding: 20px;
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+#search{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.3em;
+}
+.homeFields > div > input{
+  border: none;
+  border-bottom: 1px solid rgb(184, 182, 182);
+  background-color: transparent;
+}
+.homeFields > div > input:focus{
+  outline: none;
+  border-bottom: 1px solid rgb(5, 5, 10);
+}
+#searchDiv{
+  background-color: rgba(226, 41, 41, 0.788);
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+}
+.search > div{
+  box-shadow: 1px 1px 2px 2px gainsboro;
+  padding: 40px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+span{
+  margin-right:40px ;
+}
+button{
+  background-color: rgba(209, 25, 25, 0.815);
+  color: white;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+
+}
+#proceed{
+  float:right;
+}
+label{
+  display: block;
+  margin: 10px 0px;
+}
+form{
+  box-shadow: 1px 1px 2px 2px gainsboro;
+  width: 30%;
+  padding: 45px;
+  margin: auto;
+}
+input[type='text']{
+  width: 70%;
+  height: 25px;
+}
+input[type='radio']{
+  margin-right: 10px;
+}
+#booking_head{
+  margin: 25px 0px;
+  text-align: center;
+}
+#search_head{
+  margin: 30px 0px;
+}
+#back{
+  margin: 10px 0px;
+  margin-left: 31.54%;
+}
+#searchback{
+  margin-left: 12%;
+}
+#table{
+  box-shadow: 1px 1px 2px 2px gainsboro;
+  margin: auto;
+  padding: 10px;
+}
+#table th, td{
+  padding: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+#viewbook{
+  margin-top: 40px;
+  margin-left: 19.2%;
+}
+#empty_view{
+  box-shadow: 1px 1px 2px 2px gainsboro;
+  width: 59%;
+  padding: 50px 20px;
+  text-align: center;
+  margin: auto;
+  font-size: 2em;
+}
+#success{
+  color: green;
+}
+.viewback{
+  margin-top: 20px;
+  margin-left: 19% !important;
+}
+.empty{
+  margin-top: 10%;
+}
+h3{
+  text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+}
