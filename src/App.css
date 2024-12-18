@@ -2,7 +2,7 @@
   background-image: url('./images/HomeBg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  height: 100vh;
 }
 h1{
   text-align: center;
